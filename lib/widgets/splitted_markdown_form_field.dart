@@ -286,16 +286,16 @@ class _SplittedMarkdownFormFieldState extends State<SplittedMarkdownFormField> {
                     ),
                   ),
                   // Some padding
-                  const SizedBox(width: 8.0),
-                  Expanded(
-                    child: MarkdownBody(
-                      // key: const ValueKey<String>("zmarkdown-parse-body"),
-                      data: _internalController.text == ""
-                          ? "_Markdown text_"
-                          : _internalController.text,
-                      selectable: true,
-                    ),
-                  ),
+                  // const SizedBox(width: 8.0),
+                  // Expanded(
+                  //   child: MarkdownBody(
+                  //     // key: const ValueKey<String>("zmarkdown-parse-body"),
+                  //     data: _internalController.text == ""
+                  //         ? "_Markdown text_"
+                  //         : _internalController.text,
+                  //     selectable: true,
+                  //   ),
+                  // ),
                 ],
               ),
 
